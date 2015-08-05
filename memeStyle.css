@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	background-color: #d9e0f4;
+}
+.instructions {
+	margin-top: 20px;
+}
+.footer-container {
+	position: relative;
+	background-color: #081b36;
+	width: 100%;
+	margin-top: 30px;
+}
+footer {
+	color: white;
+	height: 200px;
+	font-family: 'Sans-serif', 'Garamond', 'Georgia';
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 50px;
+}
+.footer-icons img {
+	position: relative;
+	width: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline;
+}
+@media screen and (max-width:768px) {
+	footer {
+		font-size: .9em;
+	}
+	.footer-icons img {
+		width: 40px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
